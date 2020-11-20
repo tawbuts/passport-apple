@@ -1,6 +1,6 @@
 {
-  "name": "@pampasok/passport-apple-slab",
-  "version": "1.0.0",
+  "name": "@tawbuts/passport-apple-slab",
+  "version": "1.0.1",
   "description": "Passport strategy for Sign in with Apple",
   "main": "src/strategy.js",
   "scripts": {
@@ -8,30 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ananay/passport-apple.git"
+    "url": "git+https://github.com/tawbuts/passport-apple.git"
   },
-  "keywords": [
-    "apple",
-    "auth",
-    "sign",
-    "in",
-    "with",
-    "passportjs",
-    "passport",
-    "node",
-    "nodejs",
-    "strategy",
-    "authentication",
-    "identity"
-  ],
   "author": "Ananay Arora <i@ananayarora.com> (https://ananayarora.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ananay/passport-apple/issues"
+    "url": "https://github.com/tawbuts/passport-apple/issues"
   },
-  "homepage": "https://github.com/ananay/passport-apple#readme",
+  "homepage": "https://github.com/tawbuts/passport-apple#readme",
   "dependencies": {
     "passport-oauth2": "git+https://github.com/ananay/passport-apple",
     "jsonwebtoken": "^8.5.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
