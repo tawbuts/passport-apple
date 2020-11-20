@@ -1,5 +1,5 @@
 {
-  "name": "passport-apple",
+  "name": "@pampasok/passport-apple-slab",
   "version": "1.0.0",
   "description": "Passport strategy for Sign in with Apple",
   "main": "src/strategy.js",
